@@ -1,0 +1,16 @@
+{
+  "name": "node_esm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.mjs",
+  "scripts": {
+    "start": "node --experimental-modules app.mjs",
+    "dev": "nodemon --experimental-modules app.mjs"
+  },
+  "keywords": [],
+  "author": "Emmanuel Adebayo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
